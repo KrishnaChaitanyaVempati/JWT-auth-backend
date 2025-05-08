@@ -1,0 +1,2 @@
+/*insert into user_master (email_id, user_name, user_password) values ('krishnchaitanyakc64@gmail.com','chaitanya','chaitanya@123');
+insert into user_master (email_id, user_name, user_password) values ('vempatichaitanya1999@gmail.com','krishna','krishna@123');*/
