@@ -38,7 +38,7 @@ public class CloudVendorController {
 		return objCloudVendorService.getVendorById(id);
 	}
 
-	@GetMapping("/vendors")
+	@GetMapping("/getVendors")
 	public List<CloudVendorModel> getAllVendorDetails() {
 //		return new CloudVendorModel(id, "Vendor-1", "Vijayawada", "97015252116");
 		return objCloudVendorService.getVendors();
