@@ -34,13 +34,13 @@ public class CloudVendorController {
 
 	@GetMapping("/vendors/{vendorId}")
 	public CloudVendorModel getVendorDetails(@PathVariable("vendorId") String id) {
-//		return new CloudVendorModel(id, "Vendor-1", "Vijayawada", "9701525211");
+//		return new CloudVendorModel(id, "Vendor-1", "Vijayawada", "97015252116");
 		return objCloudVendorService.getVendorById(id);
 	}
 
 	@GetMapping("/vendors")
 	public List<CloudVendorModel> getAllVendorDetails() {
-//		return new CloudVendorModel(id, "Vendor-1", "Vijayawada", "9701525211");
+//		return new CloudVendorModel(id, "Vendor-1", "Vijayawada", "97015252116");
 		return objCloudVendorService.getVendors();
 	}
 
